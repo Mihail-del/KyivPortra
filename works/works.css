@@ -163,8 +163,33 @@ header{
     width: 80%;
     margin: 10px;
     aspect-ratio: 1/1;
-    background: #ccc;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic1{
+    background: url(data/IMG_0288.jpg);
+}
+
+.pic2{
+    background: url(data/ph-51.jpg);
+}
+
+.pic3{
+    background: url(data/File44-3.jpg);
+}
+
+.pic4{
+    background: url(data/IMG_6263.jpg);
+}
+
+.pic5{
+    background: url(data/e7a0df83595927.5d415dab328f4.jpg);
+}
+
+.pic6{
+    background: url(data/IMG_3378.jpg);
 }
 
 .gallery div a{
@@ -176,6 +201,7 @@ header{
     opacity: 0;
     background: #e7e7e7ae;
     transition: 0.3s;
+    backdrop-filter: blur(5px);
 }
 
 .gallery div a:hover{
@@ -405,3 +431,4 @@ header{
 
 
 }
+
